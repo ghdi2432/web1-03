@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body{
+    font-family: verdana; font-size:16px;
+}
+header{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.innerbox{
+    width: 1180px; height: 120px;
+    margin: 0px auto;
+    position: relative;
+}
+.innerbox h1{
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
+.global{
+    position: absolute;
+    right:0px;
+    bottom:0px;
+}
+.global li{
+    
+    float:left;
+    margin: 0px 40px 0px;
+}
+.global li a{
+    color:black;
+}
+.global a:hover{color: orange;}
+.utility{
+    position: absolute;
+    right: 30px; top:20px;
+}
+.utility li{
+    float:left;
+    font-size: 15px;
+    margin: 0px 10px 0px;
+}
+.utility a{
+    color:gray;
+}
+section{
+    position: relative;
+    top:150px;
+    width:1000px;
+    margin: 0px auto;
+}
+article{
+    position: relative;
+    float: left;
+    display: flex;
+    margin:0px 0px 10px 0px;
+}
+
+
+.innerbox-a1{
+    position: absolute;
+    font-size: 30px;
+    color:white;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+.innerbox-a2{
+    position: absolute;
+    top:50px;
+    left:10px;
+    color:white;
+}
+.innerbox-a3{
+    color:white;
+    position: absolute;
+    right:10px;
+    bottom:20px;
+}
+.innerbox-a4{
+    color:gold;
+    position: absolute;
+    right:20px;
+    bottom: 30px;
+    font-size: 30px;
+}
+.innerbox-a6{
+    position: absolute;
+    color:white;
+    right: 20%;
+    bottom: 40%;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+}
+.innerbox-a7{
+    position: absolute;
+    width:450px;
+    height: 150px;
+    right:30px;
+    bottom:40px;
+    font-size: 30px;
+    color:white;
+}
